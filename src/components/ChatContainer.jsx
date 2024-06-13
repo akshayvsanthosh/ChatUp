@@ -8,7 +8,7 @@ import { setMessages, setUsername } from '../Redux/chatSlice'
 
 function ChatContainer() {
 
-  let socketio = socketIOClient("http://localhost:3001")
+  let socketio = socketIOClient("https://chatup-server-e9sc.onrender.com")
   const dispatch = useDispatch()
   const {username,messages}= useSelector(state=>state.chatReducer)
   console.log(messages);
