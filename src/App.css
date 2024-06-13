@@ -1,0 +1,18 @@
+@media (max-width:930px) {
+    .loginBttn{
+        width: 49% !important;
+        height: 35px !important;
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width:626px) {
+    .input{
+        width: 86%;
+    }
+
+    .inputBttn{
+        width: 14% !important;
+        font-size: 13px !important;
+    }
+}
