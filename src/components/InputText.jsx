@@ -4,7 +4,7 @@ import socketIOClient from 'socket.io-client'
 
 
 function InputText() {
-  let socketio = socketIOClient("http://localhost:3001")
+  let socketio = socketIOClient("https://chatup-server-e9sc.onrender.com")
 
   const [message, setMessage] = useState("")
   const {username,messages}= useSelector(state=>state.chatReducer)
